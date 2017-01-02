@@ -7,21 +7,6 @@ img {
     height: auto;
 }
 
-@media only screen and (max-width : 1200px) {
-    
-}
-
-@media only screen and (max-width : 992px) {
-    
-}
-
-@media only screen and (max-width : 889px) {
-
-}
-
-@media only screen and (max-width : 480px) {
-}
-
 .navbar-inverse .container .collapse navbar-collapse .nav .navbar-nav .navbar-right > li > a {
     margin-right: 15px;
 }
@@ -74,4 +59,44 @@ img {
 
 mark {
     color: inherit;
+}
+
+@media only screen and (max-width : 1200px) {
+    .navbar-inverse .container .navbar-header #headTitle{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    position: relative;
+    top: 1px;
+    }     
+}
+
+@media only screen and (max-width : 992px) {
+    .navbar-inverse .container .navbar-header #headTitle{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    position: relative;
+    top: 2px;
+    } 
+}
+
+@media only screen and (max-width : 889px) {
+    .navbar-inverse .container .navbar-header #headTitle {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    position: relative;
+    top: 2px;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    .navbar-inverse .container .navbar-header #headTitle {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    position: relative;
+    top: 4px;
+    }
 }

@@ -115,7 +115,7 @@ select,
 textarea {
   margin: 0;
   font: inherit;
-  color: inherit;
+  color: #9D9D9D;
 }
 button {
   overflow: visible;
@@ -4624,7 +4624,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: transparent;
 }
 .navbar-inverse .navbar-toggle {
-  border-color: #333;
+  border-color: #9D9D9D;
 }
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
