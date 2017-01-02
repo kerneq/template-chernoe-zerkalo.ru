@@ -61,16 +61,17 @@ mark {
     color: inherit;
 }
 
-.container .row .col-md-8 .advert {
-    margin-bottom: 15px; background-color:darkgray;
-    height: 95px;
+.container .row .col-md-7 .advert {
+    margin-bottom: 15px; 
+    background-color:darkgray;
+    height: 75px;
 }
 
-.container .row .col-md-8 .tableContent {
-    width: 80%; 
-    margin-left: 15px;
+.container .row .col-md-7 .tableContent {
+    width: 90%; 
 }
-.container .row .col-md-8 .tableContent td {
+
+.container .row .col-md-7 .tableContent td {
     width: 35%; 
 }
 
@@ -82,7 +83,20 @@ mark {
     margin-left: 50px;
     position: relative;
     top: 1px;
-    }     
+    }
+    
+    .container .row .col-md-7 .tableContent {
+    width: 90%; 
+    margin-left: -20px;
+    }
+    
+    .container .row .col-md-7 .advert {
+    margin-bottom: 15px; 
+    background-color:darkgray;
+    height: 75px;
+    margin-left: -35px;
+    width: 95%;
+    }
 }
 
 @media only screen and (max-width : 992px) {
@@ -93,6 +107,19 @@ mark {
     position: relative;
     top: 2px;
     } 
+    
+    .container .row .col-md-7 .tableContent {
+        width: 100%;
+        margin-left: 2px;
+    }
+    
+    .container .row .col-md-7 .advert {
+    margin-bottom: 15px; 
+    background-color:darkgray;
+    height: 75px;
+    margin-left: -12px;
+    width: 100%;
+    }
 }
 
 @media only screen and (max-width : 889px) {
@@ -102,6 +129,19 @@ mark {
     margin-left: 50px;
     position: relative;
     top: 2px;
+    }
+    
+    .container .row .col-md-7 .tableContent {
+        width: 100%;
+        margin-left: 2px;
+    }
+    
+    .container .row .col-md-7 .advert {
+    margin-bottom: 15px; 
+    background-color:darkgray;
+    height: 75px;
+    margin-left: -12px;
+    width: 100%;
     }
 }
 
@@ -114,8 +154,16 @@ mark {
     top: 4px;
     }
     
-    .container .row .col-md-8 .tableContent {
-    width: 90%; 
-    margin-left: 15px;
+    .container .row .col-md-7 .tableContent {
+        width: 100%;
+        margin-left: 2px;
+    }
+    
+    .container .row .col-md-7 .advert {
+    margin-bottom: 15px; 
+    background-color:darkgray;
+    height: 75px;
+    margin-left: -12px;
+    width: 100%;
     }
 }
