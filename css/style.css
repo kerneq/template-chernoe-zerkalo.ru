@@ -69,6 +69,8 @@ mark {
 
 .container .row .col-md-7 .tableContent {
     width: 90%;
+    position: relative;
+    right: 85px;
 }
 
 .container .row .col-md-7 .tableContent td {
@@ -87,6 +89,16 @@ mark {
     margin-left: 15px;
 }
 
+#kinopoisk {
+    position: relative;
+    right: 75px;
+}
+
+#imdb {
+    position: relative;
+    right: 125px; 
+}
+
 content {
     border-bottom: 1px solid black;
 }
@@ -101,8 +113,9 @@ content {
     }
     
     .container .row .col-md-7 .tableContent {
-    width: 90%; 
-    margin-left: -20px;
+    width: 95%; 
+    position: relative;
+    right: 60px;
     }
     
     .container .row .col-md-7 .advert {
@@ -111,6 +124,20 @@ content {
     height: 75px;
     margin-left: -35px;
     width: 95%;
+    }
+    
+    .container .row .col-md-7 .tableContent td {
+    width: 35%; 
+    }
+    
+    #kinopoisk {
+    position: relative;
+    right: 48px;
+    }
+
+    #imdb {
+        position: relative;
+        right: 80px; 
     }
 }
 
@@ -125,7 +152,8 @@ content {
     
     .container .row .col-md-7 .tableContent {
         width: 100%;
-        margin-left: 2px;
+        position: relative;
+        left: 0px;
     }
     
     .container .row .col-md-7 .advert {
@@ -134,6 +162,20 @@ content {
     height: 75px;
     margin-left: -12px;
     width: 100%;
+    }
+    
+    .container .row .col-md-7 .tableContent td {
+    width: 35%; 
+    }
+    
+    #kinopoisk {
+    position: relative;
+    left: 9px;
+    }
+
+    #imdb {
+        position: relative;
+        right: 7px; 
     }
 }
 
@@ -158,6 +200,16 @@ content {
     margin-left: -12px;
     width: 100%;
     }
+    
+    #kinopoisk {
+    position: relative;
+    left: 10px;
+    }
+
+    #imdb {
+        position: relative;
+        right: 5px;
+    }
 }
 
 @media only screen and (max-width : 480px) {
@@ -171,7 +223,7 @@ content {
     
     .container .row .col-md-7 .tableContent {
         width: 100%;
-        margin-left: 2px;
+        margin-left: 0px;
     }
     
     .container .row .col-md-7 .advert {
@@ -180,5 +232,10 @@ content {
     height: 75px;
     margin-left: -12px;
     width: 100%;
+    }
+    
+    #imdb {
+        position: relative;
+        left: 10px;
     }
 }
