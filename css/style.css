@@ -61,6 +61,11 @@ mark {
     color: inherit;
 }
 
+.container .row .col-md-8 .advert {
+    margin-bottom: 15px; background-color:darkgray;
+    height: 95px;
+}
+
 @media only screen and (max-width : 1200px) {
     .navbar-inverse .container .navbar-header #headTitle{
     font-size: 18px;
