@@ -66,6 +66,15 @@ mark {
     height: 95px;
 }
 
+.container .row .col-md-8 .tableContent {
+    width: 80%; 
+    margin-left: 15px;
+}
+.container .row .col-md-8 .tableContent td {
+    width: 35%; 
+}
+
+
 @media only screen and (max-width : 1200px) {
     .navbar-inverse .container .navbar-header #headTitle{
     font-size: 18px;
@@ -103,5 +112,10 @@ mark {
     margin-left: 50px;
     position: relative;
     top: 4px;
+    }
+    
+    .container .row .col-md-8 .tableContent {
+    width: 90%; 
+    margin-left: 15px;
     }
 }
