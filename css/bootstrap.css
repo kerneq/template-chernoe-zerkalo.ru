@@ -1814,6 +1814,7 @@ pre code {
   .col-sm-1 {
     width: 8.33333333%;
   }
+    
   .col-sm-pull-12 {
     right: 100%;
   }
@@ -2248,6 +2249,13 @@ pre code {
     margin-left: 0;
   }
 }
+
+@media (max-width: 500px) {
+    .col-tn {
+        width: 100%;
+    }
+}
+
 table {
   background-color: transparent;
 }

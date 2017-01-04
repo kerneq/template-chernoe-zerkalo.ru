@@ -117,8 +117,23 @@ content {
     height: 110px;
     background-color: aqua;
     border: 3px solid white;
-    display:inline-block;
+    display: inline-block;
     float: left;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.icon-serie:hover {
+    color: black;
+    width: 210px;
+    height: 110px;
+    background-color: aqua;
+    border: 3px solid white;
+    display: block;
+    float: left;
+    opacity: 0.7;
+    margin-left: 15px;
+    margin-top: 20px;
 }
 
 @media only screen and (max-width : 1200px) {
@@ -228,6 +243,8 @@ content {
         position: relative;
         left: 10px;
     }
+    
+
 }
 
 @media only screen and (max-width : 480px) {
