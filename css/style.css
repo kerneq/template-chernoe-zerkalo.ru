@@ -145,6 +145,13 @@ content {
     opacity: 0.7;
 }
 
+footer {
+    min-height: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #C9C9C9;
+    background-color: #DEDEDE;
+}
+
 #serie-desc {
     position: relative;
     top: 80px;
