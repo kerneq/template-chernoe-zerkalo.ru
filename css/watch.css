@@ -83,6 +83,11 @@ mark {
     margin-left: 15px;
 }
 
+.container-fluid .container .row #bread {
+    position: relative;
+    right: 17px;
+}
+
 .container .row .col-md-7 .row .col-md-6 #ratingIm{
     color: #E4BB24;
     font-size: 28px;
@@ -104,7 +109,7 @@ mark {
     min-height: 400px;
     color: white;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 #rekomendation {
@@ -224,6 +229,11 @@ footer {
         position: relative;
         right: 80px; 
     }
+    
+     .container-fluid .container .row #bread {
+    position: relative;
+    left: 0px;
+    }
 }
 
 @media only screen and (max-width : 992px) {
@@ -262,6 +272,11 @@ footer {
         position: relative;
         right: 7px; 
     }
+    
+    .container-fluid .container .row #bread {
+    position: relative;
+    left: 80px;
+    }
 }
 
 @media only screen and (max-width : 889px) {
@@ -296,7 +311,10 @@ footer {
         left: 10px;
     }
     
-
+    .container-fluid .container .row #bread {
+    position: relative !important;
+    left: 80px !important;
+    }
 }
 
 @media only screen and (max-width : 480px) {
@@ -324,5 +342,10 @@ footer {
     #imdb {
         position: relative;
         left: 10px;
+    }
+    
+    .container-fluid .container .row #bread {
+    position: relative;
+    right: 380px;
     }
 }
