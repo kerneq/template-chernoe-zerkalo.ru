@@ -1,0 +1,328 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-inverse .container .collapse navbar-collapse .nav .navbar-nav .navbar-right > li > a {
+    margin-right: 15px;
+}
+
+#seasons {
+    color: #9d9d9d;
+    text-transform: uppercase;
+    position: relative;
+    top: 15px;
+    right: 10px;
+}
+
+.navbar-inverse .container .sesonsNumber {
+    margin-right: 100px;
+    color: red;
+    font-size: 14px;
+}
+
+.navbar-inverse .container .navbar-header #headTitle {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+.headImg {
+    height:  515px;
+    background-image: url(../logo2.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#img-title {
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#img-serial-name {
+    letter-spacing: 1px;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #B03126;
+}
+
+#you-watched {
+    color: lightgrey;
+    font-size: 16px;
+}
+
+mark {
+    color: inherit;
+}
+
+.container .row .col-md-7 .advert {
+    margin-bottom: 15px; 
+    background-color:darkgray;
+    height: 75px;
+}
+
+.container .row .col-md-7 .tableContent {
+    width: 90%;
+    position: relative;
+    right: 85px;
+}
+
+.container .row .col-md-7 .tableContent td {
+    width: 35%; 
+}
+
+.container .row .col-md-7 .row .col-md-6 #rating{
+    color: green;
+    font-size: 28px;
+    margin-left: 15px;
+}
+
+.container .row .col-md-7 .row .col-md-6 #ratingIm{
+    color: #E4BB24;
+    font-size: 28px;
+    margin-left: 15px;
+}
+
+#kinopoisk {
+    position: relative;
+    right: 75px;
+}
+
+#imdb {
+    position: relative;
+    right: 125px; 
+}
+
+#content {
+    background-color: #3C3C3C;
+    min-height: 400px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#rekomendation {
+    color: #999;
+    line-height: 1.42857143;
+}
+
+#content H1 {
+    font-size: 25px;
+}
+
+#video {    
+    height: 450px;
+    background-color: dimgrey;
+}
+
+#watch-series {
+    border-top: 1px solid #C9C9C9;
+    background-color: #F1F1F1;
+    min-height: 300px;
+    width: 100%;
+}
+
+.icon-serie {
+    color: black;
+    width: 210px;
+    height: 110px;
+    background-color: aqua;
+    border: 3px solid white;
+    display: inline-block;
+    float: left;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.icon-serie:hover {
+    color: black;
+    width: 210px;
+    height: 110px;
+    background-color: aqua;
+    border: 3px solid white;
+    display: block;
+    float: left;
+    opacity: 0.7;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+#serie-name {
+    position: relative;
+    top: 60px;
+    left: 15px;
+    color:white;
+    background-color: black;
+    opacity: 0.7;
+}
+
+footer {
+    min-height: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #C9C9C9;
+    background-color: #DEDEDE;
+}
+
+#serie-desc {
+    position: relative;
+    top: 80px;
+    left: -38px;
+    color:white;
+    background-color: black;
+    opacity: 0.7;
+}
+
+#serie-time {
+    position: relative;
+    bottom: 17px;
+    left: 170px;
+    color:white;
+    background-color: black;
+    opacity: 0.7;
+    font-size: 12px;
+}
+
+@media only screen and (max-width : 1200px) {
+    .navbar-inverse .container .navbar-header #headTitle{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    position: relative;
+    top: 1px;
+    }
+    
+    .container .row .col-md-7 .tableContent {
+    width: 95%; 
+    position: relative;
+    right: 60px;
+    }
+    
+    .container .row .col-md-7 .advert {
+    margin-bottom: 15px; 
+    background-color:darkgray;
+    height: 75px;
+    margin-left: -35px;
+    width: 95%;
+    }
+    
+    .container .row .col-md-7 .tableContent td {
+    width: 35%; 
+    }
+    
+    #kinopoisk {
+    position: relative;
+    right: 48px;
+    }
+
+    #imdb {
+        position: relative;
+        right: 80px; 
+    }
+}
+
+@media only screen and (max-width : 992px) {
+    .navbar-inverse .container .navbar-header #headTitle{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    position: relative;
+    top: 2px;
+    } 
+    
+    .container .row .col-md-7 .tableContent {
+        width: 100%;
+        position: relative;
+        left: 0px;
+    }
+    
+    .container .row .col-md-7 .advert {
+    margin-bottom: 15px; 
+    background-color:darkgray;
+    height: 75px;
+    margin-left: -12px;
+    width: 100%;
+    }
+    
+    .container .row .col-md-7 .tableContent td {
+    width: 35%; 
+    }
+    
+    #kinopoisk {
+    position: relative;
+    left: 9px;
+    }
+
+    #imdb {
+        position: relative;
+        right: 7px; 
+    }
+}
+
+@media only screen and (max-width : 889px) {
+    .navbar-inverse .container .navbar-header #headTitle {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    position: relative;
+    top: 2px;
+    }
+    
+    .container .row .col-md-7 .tableContent {
+        width: 100%;
+        margin-left: 2px;
+    }
+    
+    .container .row .col-md-7 .advert {
+    margin-bottom: 15px; 
+    background-color:darkgray;
+    height: 75px;
+    margin-left: -12px;
+    width: 100%;
+    }
+    
+    #kinopoisk {
+    position: relative;
+    left: 10px;
+    }
+
+    #imdb {
+        position: relative;
+        left: 10px;
+    }
+    
+
+}
+
+@media only screen and (max-width : 480px) {
+    .navbar-inverse .container .navbar-header #headTitle {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    position: relative;
+    top: 4px;
+    }
+    
+    .container .row .col-md-7 .tableContent {
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .container .row .col-md-7 .advert {
+    margin-bottom: 15px; 
+    background-color:darkgray;
+    height: 75px;
+    margin-left: -12px;
+    width: 100%;
+    }
+    
+    #imdb {
+        position: relative;
+        left: 10px;
+    }
+}
