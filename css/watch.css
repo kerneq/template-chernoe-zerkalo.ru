@@ -208,9 +208,6 @@ footer {
 }
 
 .container-fluid .container .row #comments-block {
-    color: red !important;
-    position: relative;
-    left: 27px;
     min-height: 200px;
 }
 
