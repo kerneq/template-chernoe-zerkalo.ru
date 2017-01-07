@@ -207,6 +207,13 @@ footer {
     right: 13px;
 }
 
+.container-fluid .container .row #comments-block {
+    color: red !important;
+    position: relative;
+    left: 27px;
+    min-height: 200px;
+}
+
 @media only screen and (max-width : 1200px) {
     .navbar-inverse .container .navbar-header #headTitle{
     font-size: 18px;
