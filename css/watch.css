@@ -137,7 +137,6 @@ mark {
     color: black;
     width: 210px;
     height: 110px;
-    background-color: aqua;
     border: 3px solid white;
     display: inline-block;
     float: left;
@@ -149,7 +148,6 @@ mark {
     color: black;
     width: 210px;
     height: 110px;
-    background-color: aqua;
     border: 3px solid white;
     display: block;
     float: left;
@@ -209,6 +207,19 @@ footer {
 
 .container-fluid .container .row #comments-block {
     min-height: 200px;
+}
+
+#prev-button {
+    background-color: #2D2D2D;
+    padding: 8px 15px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #454545;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
 }
 
 @media only screen and (max-width : 1200px) {
