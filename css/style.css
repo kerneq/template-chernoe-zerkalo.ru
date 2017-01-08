@@ -61,6 +61,20 @@ mark {
     color: inherit;
 }
 
+#current-watch {
+    background-color: #B03126;
+    color: white;
+    padding: 5px 12px 5px 12px;
+}
+
+#current-watch-rectangle {
+    background-color: #B03126;
+    color: white;
+    padding: 6px 13px 6px 13px;
+    position: relative;
+    right: 13px;
+}
+
 .container .row .col-md-7 .advert {
     margin-bottom: 15px; 
     background-color:darkgray;
@@ -115,7 +129,6 @@ content {
     color: black;
     width: 210px;
     height: 110px;
-    background-color: aqua;
     border: 3px solid white;
     display: inline-block;
     float: left;
@@ -127,7 +140,6 @@ content {
     color: black;
     width: 210px;
     height: 110px;
-    background-color: aqua;
     border: 3px solid white;
     display: block;
     float: left;
