@@ -205,6 +205,10 @@ footer {
     right: 13px;
 }
 
+.content .container .row .col-md-10 .row .col-md-11 .rus {
+    color: red !important;
+}
+
 .container-fluid .container .row #comments-block {
     min-height: 200px;
 }
