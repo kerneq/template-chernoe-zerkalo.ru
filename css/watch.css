@@ -234,7 +234,13 @@ footer {
 
 @media only screen and (min-height : 1400px) {
     footer {
-        display: none;
+        min-height: 60px;
+        padding-top: 20px;
+        border-top: 1px solid #C9C9C9;
+        background-color: #DEDEDE;
+        position:fixed;
+        bottom: 0px;
+        width: 100%;
     }
 }
 
