@@ -1,5 +1,13 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  height: 100%;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 img {
