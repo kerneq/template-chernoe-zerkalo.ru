@@ -139,6 +139,7 @@ content {
     height: 110px;
     border: 3px solid white;
     display: inline-block;
+    background-size: cover;
     float: left;
     margin-left: 15px;
     margin-top: 20px;
@@ -156,13 +157,18 @@ content {
     margin-top: 20px;
 }
 
-#serie-name {
+.serie-name {
     position: relative;
     top: 60px;
-    left: 15px;
+    left: 10px;
     color:white;
-    background-color: black;
     opacity: 0.7;
+}
+
+.seriesTXT {
+    background-color: black; 
+    padding-left: 2px; 
+    padding-right: 2px;
 }
 
 footer {
@@ -172,23 +178,34 @@ footer {
     background-color: #DEDEDE;
 }
 
-#serie-desc {
+.serie-desc {
     position: relative;
-    top: 80px;
-    left: -38px;
+    top: 60px;
+    left: 10px;
     color:white;
-    background-color: black;
     opacity: 0.7;
 }
 
-#serie-time {
+.serie-time {
+    width: 40px;
     position: relative;
-    bottom: 17px;
-    left: 170px;
+    bottom: 35px;
+    left: 165px;
     color:white;
-    background-color: black;
     opacity: 0.7;
     font-size: 12px;
+}
+
+@media only screen and (min-height : 1400px) {
+    footer {
+        min-height: 60px;
+        padding-top: 20px;
+        border-top: 1px solid #C9C9C9;
+        background-color: #DEDEDE;
+        position:fixed;
+        bottom: 0px;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width : 1200px) {
